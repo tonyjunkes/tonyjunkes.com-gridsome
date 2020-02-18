@@ -1,3 +1,26 @@
 [build]
   publish = "dist"
   command = "gridsome build"
+
+[[redirects]]
+  from = "http://tonyjunkes.com/*"
+  to = "https://tonyjunkes.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://tonyjunkes.netlify.com/*"
+  to = "https://tonyjunkes.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/feeds/rss"
+  to = "/rss.xml"
+  status = 301
+
+[[redirects]]
+  from = "/blog/page/*"
+  to = "/blog/:splat"
+  status = 301
+  force = true
