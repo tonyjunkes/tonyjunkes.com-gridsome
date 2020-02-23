@@ -30,7 +30,7 @@
           <h2 class="font-bold mb-6" id="contact">Questions? Comments? Hit me up!</h2>
 
           <div class="text-lg sm:text-lg mb-16">
-            <form class="mb-12" action="https://formspree.io/tony@tonyjunkes.com" method="post">
+            <form class="mb-12" action="https://formspree.io/mvorzaoe" method="post">
               <input type="hidden" name="_subject" value="tonyjunkes.com - Contact Form Submission">
               <input type="text" name="_gotcha" style="display:none">
               <div class="flex flex-wrap mb-6 -mx-4">
@@ -47,7 +47,7 @@
                           Email Address
                       </label>
 
-                      <input type="email" name="email" id="email" placeholder="email@example.com"  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-blue-700 mb-2 p-4" required>
+                      <input type="email" name="_replyto" id="email" placeholder="email@example.com"  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-blue-700 mb-2 p-4" required>
                   </div>
               </div>
 

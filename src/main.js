@@ -38,6 +38,13 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Nunito+Sans:400,700'
   })
+
+  head.script.push({
+    'data-ad-client': process.env.GRIDSOME_GOODLE_ADSENSE,
+    async: true,
+    src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+    body: false
+  })
 }
 
 
