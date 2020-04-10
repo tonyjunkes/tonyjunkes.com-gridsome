@@ -24,6 +24,6 @@
   },
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^2.2.43",
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "^1.1.4"
   }
 }
