@@ -4,15 +4,6 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-const tailwind = require('tailwindcss')
-const purgecss = require('@fullhuman/postcss-purgecss')
-
-const postcssPlugins = [
-  tailwind(),
-]
-
-if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
-
 module.exports = {
   siteName: 'A Blog By Tony Junkes',
   siteDescription: 'Web Development, Programming & then some...',
@@ -65,6 +56,17 @@ module.exports = {
         id: process.env.GRIDSOME_GOOGLE_ANALYTICS
       }
     },
+    {
+      use: 'gridsome-plugin-tailwindcss',
+      options: {
+        tailwindConfig: './tailwind.config.js',
+        purgeConfig: {},
+        presetEnvConfig: {},
+        shouldPurge: true,
+        shouldImport: true,
+        shouldTimeTravel: true
+      }
+    }
   ],
   templates: {
     Tag: '/tags/:id',
@@ -79,12 +81,5 @@ module.exports = {
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link',
     }
-  },
-  css: {
-    loaderOptions: {
-      postcss: {
-        plugins: postcssPlugins,
-      },
-    },
-  },
+  }
 }
