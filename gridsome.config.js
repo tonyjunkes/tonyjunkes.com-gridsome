@@ -19,6 +19,9 @@ module.exports = {
   siteUrl: 'https://tonyjunkes.com',
   plugins: [
     {
+      use: 'gridsome-plugin-tailwindcss'
+    },
+    {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'blog/**/*.md',
