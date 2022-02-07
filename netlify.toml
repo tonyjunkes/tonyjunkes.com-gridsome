@@ -24,3 +24,9 @@
   to = "/blog/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/tags/*"
+  to = "/tag/:splat"
+  status = 301
+  force = true

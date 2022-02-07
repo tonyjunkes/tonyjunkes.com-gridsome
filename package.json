@@ -7,21 +7,24 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@gridsome/plugin-google-analytics": "^0.1.0",
+    "@gridsome/plugin-google-analytics": "^0.1.2",
     "@gridsome/plugin-sitemap": "^0.4.0",
     "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.6.1",
-    "@gridsome/vue-remark": "^0.2.2",
-    "axios": "^0.19.2",
-    "gridsome": "^0.7.13",
-    "gridsome-plugin-remark-shiki": "^0.3.1",
+    "@gridsome/transformer-remark": "^0.6.4",
+    "@gridsome/vue-remark": "^0.2.6",
+    "axios": "^0.25.0",
+    "gridsome": "^0.7.23",
+    "gridsome-plugin-remark-shiki": "^0.6.0",
     "gridsome-plugin-rss": "^1.2.0",
     "lodash.pick": "^4.4.0",
     "vue-disqus": "^4.0.1",
-    "vue-fuse": "^2.2.1",
-    "vue-scrollto": "^2.17.1"
+    "vue-fuse": "^3.0.2",
+    "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {
-    "gridsome-plugin-tailwindcss": "^3.0.1"
+    "autoprefixer": "^10.4.2",
+    "gridsome-plugin-tailwindcss2": "^3.0.1",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.18"
   }
 }

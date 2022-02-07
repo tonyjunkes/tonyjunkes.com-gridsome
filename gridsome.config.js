@@ -57,9 +57,10 @@ module.exports = {
       }
     },
     {
-      use: 'gridsome-plugin-tailwindcss',
+      use: 'gridsome-plugin-tailwindcss2',
       options: {
-        tailwindConfig: './tailwind.config.js',
+        tailwindConfigFile: './tailwind.config.js',
+        mainCssFile: './src/css/main.css',
         purgeConfig: {},
         presetEnvConfig: {},
         shouldPurge: true,
@@ -69,13 +70,13 @@ module.exports = {
     }
   ],
   templates: {
-    Tag: '/tags/:id',
+    Tag: '/tag/:id',
     Post: '/blog/:path'
   },
   transformers: {
     remark: {
       plugins: [
-        [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true } ]
+        [ 'gridsome-plugin-remark-shiki', { theme: 'material-theme-palenight', skipInline: true } ]
       ],
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],

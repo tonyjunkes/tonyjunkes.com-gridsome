@@ -50,7 +50,7 @@
         </div>
         <ul class="flex items-center">
           <li class="mr-8">
-            <a href="mailto:tony@tonyjunkes.com" class="text-white hover:text-gray-400">
+            <a href="mailto:hello@tonyjunkes.com" class="text-white hover:text-gray-400">
               <svg width="25" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0h20A2.5 2.5 0 0 1 25 2.5v15a2.5 2.5 0 0 1-2.5 2.5h-20A2.5 2.5 0 0 1 0 17.5v-15C0 1.125 1.125 0 2.5 0zm20 4.225V2.5h-20v1.725l10 5 10-5zm0 2.8l-9.438 4.713a1.25 1.25 0 0 1-1.124 0L2.5 7.025V17.5h20V7.025z" fill-rule="nonzero"/></svg>
             </a>
           </li>
@@ -82,7 +82,7 @@
           </li>
 
           <li class="mr-8">
-            <a href="https://twitch.tv/nozzs" target="_blank" class="text-white hover:text-gray-400">
+            <a href="https://twitch.tv/tonycreatestv" target="_blank" class="text-white hover:text-gray-400">
               <svg width="24" height="19" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M2.149 0l-1.612 4.119v16.836h5.731v3.045h3.224l3.045-3.045h4.657l6.269-6.269v-14.686h-21.314zm19.164 13.612l-3.582 3.582h-5.731l-3.045 3.045v-3.045h-4.836v-15.045h17.194v11.463zm-3.582-7.343v6.262h-2.149v-6.262h2.149zm-5.731 0v6.262h-2.149v-6.262h2.149z" fill-rule="nonzero"/></svg>
             </a>
           </li>
