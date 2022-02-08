@@ -2,6 +2,9 @@
   publish = "dist"
   command = "gridsome build"
 
+[context.production]
+  environment = { YARN_VERSION = "1.22.17", NODE_VERSION = "16.13.2" }
+
 [[redirects]]
   from = "http://tonyjunkes.com/*"
   to = "https://tonyjunkes.com/:splat"
