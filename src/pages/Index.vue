@@ -11,7 +11,7 @@
         <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
           <div><g-image src="../../static/avatar.jpg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
           <div class="flex-1 text-lg sm:text-xl ml-6">
-            I’m a Software Engineer living in South Florida and have been working in web development for over a decade; primarily using CFML, Java &amp; JavaScript. I enjoy learning new things and that's the primary reason I started writing about my experiences and sharing them here. You can get a glimpse of what I've been working on / tinkering with over on <a href="https://github.com/tonyjunkes" target="_blank">GitHub</a>. When I'm not programming, you may catch me at a local brewery or streaming a variety of content on <a href="https://twitch.tv/nozzs" target="_blank">Twitch</a>.
+            I’m a Software Engineer living in South Florida and have been working in web development for over a decade; primarily using CFML, Java &amp; JavaScript. I enjoy learning new things and that's the primary reason I started writing about my experiences and sharing them here. You can get a glimpse of what I've been working on / tinkering with over on <a href="https://github.com/tonyjunkes" target="_blank">GitHub</a>.
           </div>
         </div>
         <!-- <div class="responsive-container">
