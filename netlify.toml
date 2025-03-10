@@ -20,12 +20,13 @@
 [[redirects]]
   from = "https://tonyjunkes.dev/*"
   to = "https://tonyjunkes.com/:splat"
-  status = 301
+  status = 302
   force = true
+
 [[redirects]]
   from = "http://tonyjunkes.dev/*"
   to = "https://tonyjunkes.com/:splat"
-  status = 301
+  status = 302
   force = true
 
 [[redirects]]
