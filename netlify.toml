@@ -18,6 +18,17 @@
   force = true
 
 [[redirects]]
+  from = "https://tonyjunkes.dev/*"
+  to = "https://tonyjunkes.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "http://tonyjunkes.dev/*"
+  to = "https://tonyjunkes.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/feeds/rss"
   to = "/rss.xml"
   status = 301
